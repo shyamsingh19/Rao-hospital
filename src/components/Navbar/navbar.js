@@ -1,33 +1,14 @@
-<<<<<<< Updated upstream
-import React from 'react'
-import './navbar.css'
-=======
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 
 import "./navbar.css";
-// import call from "../../assets/call_icon.png";
-// import time from "../../assets/time_icon.png";
-// import location from "../../assets/locaiton_icon.png";
 import searchicon from "../../assets/searchicon.png";
 import openvector from "../../assets/Vector-open.png";
->>>>>>> Stashed changes
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-<<<<<<< Updated upstream
-    <div>
-    <div>
-        <p> navbar</p>
-    </div>
-    </div>
-  )
-}
-
-export default Navbar
-=======
     <>
       <nav className="Navbar">
         <p className="heading"> Medical</p>
@@ -86,4 +67,3 @@ export default Navbar
 };
 
 export default Navbar;
->>>>>>> Stashed changes

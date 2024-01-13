@@ -10,13 +10,10 @@
 body{
     background-color: white ;
     overflow-y: scroll;
-<<<<<<< Updated upstream
-=======
     font-family: sans-serif;
     /* overflow: hidden; */
 }
 
 ul li{
     list-style-type:none;
->>>>>>> Stashed changes
 }
