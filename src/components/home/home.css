@@ -1,0 +1,157 @@
+.doctor {
+  width: 100vw;
+  height: calc(1000vh-80px);
+}
+
+.mobdoctor {
+  display: none;
+  width: 100vw;
+  height: auto;
+}
+
+.doctorText {
+  position: absolute;
+  top: 327px;
+  left: 186px;
+}
+.smallText {
+  color: var(--Secondary, #159eec);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.largeText {
+  color: var(--Primary, #1f2b6c);
+  font-family: Yeseva One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.ourservices {
+  margin-top: 10px;
+  z-index: 1;
+  border-radius: 50px;
+  background: var(--Accent, #bfd2f8);
+  display: inline-flex;
+  padding: 13px 35px;
+  align-items: flex-start;
+  border: none;
+}
+
+.btntext {
+  color: var(--Primary, #1f2b6c);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1100px) {
+  .doctorText {
+    font-size: 20%;
+    top: 290px;
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .doctorText {
+    top: 250px;
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .doctorText {
+    top: 200px;
+    left: 80px;
+  }
+
+  .largeText {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .doctorText {
+    top: 180px;
+    left: 80px;
+  }
+
+  .smallText {
+    font-size: 14px;
+  }
+
+  .largeText {
+    font-size: 30px;
+  }
+
+  .ourservices {
+    padding: 10px 25px;
+  }
+  .btntext {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  .doctorText {
+    top: 150px;
+    left: 80px;
+  }
+
+  .largeText {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .doctor {
+    display: none;
+  }
+
+  .mobdoctor {
+    display: block;
+  }
+
+  .doctorText {
+    top: 270px;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .doctorText {
+    top: 240px;
+    left: 30px;
+  }
+
+  .largeText{
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .doctorText {
+    top: 200px;
+    left: 30px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .doctorText {
+    top: 180px;
+    left: 30px;
+  }
+}
+
