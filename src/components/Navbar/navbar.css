@@ -6,6 +6,9 @@
   padding: 0 40px;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
 .textBtnContainer {
@@ -22,7 +25,7 @@
   line-height: normal;
 }
 
-.deskMenuListItem{
+.deskMenuListItem {
   color: #fcfefe;
 }
 
@@ -73,7 +76,7 @@
   /* align-items: flex-start; */
   /* gap: 10px; */
   border-radius: 50px;
-  background: var(--Primary, #1F2B6C);
+  background: var(--Primary, #1f2b6c);
 
   color: var(--Accent, #bfd2f8);
   font-family: Work Sans;

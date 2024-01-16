@@ -1,0 +1,92 @@
+#specialties {
+  margin-top: 100px;
+}
+
+.specialsmallhead {
+  color: var(--Secondary, #159eec);
+  text-align: center;
+
+  /* Caption */
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+}
+
+.speciallargehead {
+  color: var(--Primary, #1f2b6c);
+  text-align: center;
+
+  /* Display 2 */
+  font-family: Yeseva One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.specialimg {
+  width: 50px;
+  height: 44px;
+  flex-shrink: 0;
+  /* fill: var(--Secondary, #159eec); */
+  /* fill: var(--Accent, #BFD2F8); */
+}
+
+.specialimgtext {
+  color: var(--Black, #212124);
+  /* text-align: center; */
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+}
+
+.allspecial {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 64px;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
+}
+
+.special1,
+.special2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.special {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 248px;
+  height: 172px;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+.special:hover {
+  background: var(--Primary, #1f2b6c);
+}
+.special:hover .specialimgtext {
+  color: var(--Accent, #bfd2f8);
+}
+
+@media screen and (max-width:768px) {
+  .special1,
+.special2 {
+  display: block;
+}
+
+  
+}

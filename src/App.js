@@ -1,16 +1,22 @@
 
 import Navbar from "./components/Navbar/navbar";
-import About from "./components/about/about";
 import Home from "./components/home/home";
+import About from "./components/about/about";
 import Specialties from "./components/specialties/specialties";
+import './App.css';
+import Doctors from "./components/doctors";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import UncontrolledExample from "./components/doctors";
 
 function App() {
   return (
-    <div>
+    <div className="app_wrap">
       <Navbar />
       <Home />
-      <About />
-      <Specialties />
+      <About/>
+      <Specialties/>
+      <Doctors/>
+
     </div>
   );
 }
