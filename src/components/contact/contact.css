@@ -1,0 +1,58 @@
+.contact_wrap{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+
+}
+.image_wrap{
+    width: 500px;
+}
+.contactform {
+    width: calc(100% - 540px);
+    
+}
+.contactform form div{
+    margin: 10px 0;
+}
+
+.contactform form div label{
+    display: block;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+   
+}
+
+.contactform input{
+    min-height: 40px;
+    border-radius: 6px;
+    width: 100%;   
+    border: 1px solid #1F2B6C;
+    background-color: white;
+    padding: 10px;
+}
+
+.contactform textarea{
+   height: 200px;
+   width: 100%;
+   border-radius: 6px;
+   border: 1px solid #1F2B6C;
+   background-color: white;
+   padding: 10px;
+}
+.submit_button{
+    margin: 10px 0;
+    padding: 10px 30px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #1F2B6C;
+    font-size: 16px;
+    font-weight: 400px;
+    cursor: pointer;
+}

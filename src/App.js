@@ -7,6 +7,8 @@ import './App.css';
 import Doctors from "./components/doctors/doctors";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import UncontrolledExample from "./components/doctors/doctors";
+import Contactus from "./components/contact/contactus";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <About/>
       <Specialties/>
       <Doctors/>
+      <Contactus />
+      <Footer />
 
     </div>
   );
