@@ -1,11 +1,11 @@
 import React from "react";
 import "./doctors.css";
-import doctor1 from "../../src/assets/doctor1.png";
-import doctor2 from "../../src/assets/doctor2.png";
-import doctor3 from "../../src/assets/doctor3.png";
-import linkedin from "../assets/linkedin.png";
-import insta from "../assets/insta.png";
-import fb from "../assets/fb.png";
+import doctor1 from "../../assets/doctor1.png";
+import doctor2 from "../../assets/doctor2.png";
+import doctor3 from "../../assets/doctor3.png";
+import linkedin from "../../assets/linkedin.png";
+import insta from "../../assets/insta.png";
+import fb from "../../assets/fb.png";
 
 const Doctors = () => {
   return (

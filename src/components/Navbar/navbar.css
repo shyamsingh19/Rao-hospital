@@ -1,4 +1,4 @@
-.Navbar {
+#Navbar {
   background: #1f2b6c;
   display: flex;
   width: 100vw;
@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 3;
+  overflow: hidden;
 }
 
 .textBtnContainer {
@@ -133,7 +134,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .Navbar {
+  #Navbar {
     height: 75px;
   }
 
@@ -156,7 +157,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .Navbar {
+  #Navbar {
     height: 70px;
     padding: 8px auto;
   }
@@ -193,7 +194,7 @@
     display: none;
   }
 
-  .Navbar {
+  #Navbar {
     height: 70px;
   }
 
@@ -223,7 +224,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .Navbar {
+  #Navbar {
     padding: 0 20px;
   }
 }

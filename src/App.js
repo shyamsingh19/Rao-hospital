@@ -4,9 +4,9 @@ import Home from "./components/home/home";
 import About from "./components/about/about";
 import Specialties from "./components/specialties/specialties";
 import './App.css';
-import Doctors from "./components/doctors";
+import Doctors from "./components/doctors/doctors";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import UncontrolledExample from "./components/doctors";
+import UncontrolledExample from "./components/doctors/doctors";
 
 function App() {
   return (

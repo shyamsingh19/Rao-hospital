@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="Navbar">
+      <nav id="Navbar">
         <p className="heading"> Medical</p>
 
         <div className="textBtnContainer">

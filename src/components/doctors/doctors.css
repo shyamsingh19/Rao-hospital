@@ -1,3 +1,7 @@
+#doctors{
+  overflow: hidden;
+}
+
 .docimages {
   display: flex;
   gap: 20px;
