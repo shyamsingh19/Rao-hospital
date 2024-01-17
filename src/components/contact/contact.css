@@ -57,3 +57,14 @@
     font-weight: 400px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 991px) {
+
+    .contact_wrap {
+        flex-direction: column;
+
+    }
+    .contactform {
+        width: 100%;
+    }
+}

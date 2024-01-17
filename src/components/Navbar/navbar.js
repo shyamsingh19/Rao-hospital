@@ -18,8 +18,8 @@ const Navbar = () => {
           <Link activeClass="active" to='about' spy={true} smooth={true} offset={-100} diuration={500} className="deskMenuListItem">About</Link>
           <Link activeClass="active" to='specialties' spy={true} smooth={true} offset={-100} diuration={500} className="deskMenuListItem">Specialties</Link>
           <Link activeClass="active" to='doctors' spy={true} smooth={true} offset={-100} diuration={500} className="deskMenuListItem">Doctors</Link>
-          <Link activeClass="active" to='' spy={true} smooth={true} offset={-100} diuration={500} className="deskMenuListItem">News</Link>
-          <Link activeClass="active" to='contact' spy={true} smooth={true} offset={-100} diuration={500} className="deskMenuListItem">Contact</Link>
+          {/* <Link activeClass="active" to='' spy={true} smooth={true} offset={-100} diuration={500} className="deskMenuListItem">News</Link> */}
+          <Link activeClass="active" to='contactus' spy={true} smooth={true} offset={-100} diuration={500} className="deskMenuListItem">Contact</Link>
         </div>
 
 
@@ -49,8 +49,8 @@ const Navbar = () => {
             <Link activeClass="active" to='about' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
             <Link activeClass="active" to='specialties' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>Specialties</Link>
             <Link activeClass="active" to='doctors' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>Doctors</Link>
-            <Link activeClass="active" to='con' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>News</Link>
-            <Link activeClass="active" to='contact' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
+            {/* <Link activeClass="active" to='con' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>News</Link> */}
+            <Link activeClass="active" to='contactus' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
             <Link activeClass="active" to='' spy={true} smooth={true} offset={-100} diuration={500} className="listItem" onClick={() => setShowMenu(false)}>
               <button className="appointmentbtnmob">
                 Appointment
