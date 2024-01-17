@@ -6,7 +6,7 @@ import Specialties from "./components/specialties/specialties";
 import './App.css';
 import Doctors from "./components/doctors/doctors";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import UncontrolledExample from "./components/doctors/doctors";
+// import UncontrolledExample from "./components/doctors/doctors";
 import Contactus from "./components/contact/contactus";
 import Footer from "./components/footer/footer";
 
@@ -18,7 +18,7 @@ function App() {
       <About/>
       <Specialties/>
       <Doctors/>
-      <Contactus />
+      <Contactus  className="contactcomp"/>
       <Footer />
 
     </div>

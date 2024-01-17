@@ -16,8 +16,12 @@
   justify-content: center;
 }
 
+.docheading{
+ margin: 30px 0;
+}
+
 .smalldocheading {
-  color: var(--Secondary, #159eec);
+  color:  #159eec;
   text-align: center;
 
   /* Caption */
@@ -31,7 +35,7 @@
 }
 
 .largedocheading {
-  color: var(--Primary, #1f2b6c);
+  color:  #1f2b6c;
   text-align: center;
   margin-top: 8px;
 
@@ -44,7 +48,7 @@
 }
 
 .docimages h5 {
-  color: var(--Primary, #1f2b6c);
+  color: var #1f2b6c;
   margin-top: 16px;
 
   /* Body 2 */
@@ -56,7 +60,7 @@
 }
 
 .docfield {
-  color: var(--Primary, #1f2b6c);
+  color:  #1f2b6c;
   margin-top: 8px;
 
   /* Caption */
@@ -84,7 +88,7 @@
 .thirddoctor {
   border-radius: 5px 5px 0px 0px;
 
-  background: var(--Accent, #bfd2f8);
+  background:  #bfd2f8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +103,7 @@
   margin: auto auto;
 
   border-radius: 0px 0px 5px 5px;
-  background: var(--Primary, #1f2b6c);
+  background:  #1f2b6c;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,7 +111,7 @@
 }
 
 .viewprofilecontainer a {
-  color: var(--Accent, #bfd2f8);
+  color:  #bfd2f8;
 }
 
 .fb {

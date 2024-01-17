@@ -57,12 +57,18 @@
   /* margin-left: 10rem;
   margin-right: 10rem; */
 }
+.specialheading{
+
+ cursor: default;
+
+}
 
 .special1,
 .special2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  cursor: pointer;
 }
 
 .special {
