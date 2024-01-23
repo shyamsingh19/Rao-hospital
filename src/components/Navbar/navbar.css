@@ -59,8 +59,8 @@
   align-items: flex-start;
   gap: 10px;
   border-radius: 50px;
-  background: var(--Accent, #bfd2f8);
-  color: var(--Primary, #1f2b6c);
+  background:  #bfd2f8;
+  color:  #1f2b6c;
   font-family: Work Sans;
   font-size: 16px;
   font-style: normal;
@@ -79,9 +79,9 @@
   /* align-items: flex-start; */
   /* gap: 10px; */
   border-radius: 50px;
-  background: var(--Primary, #1f2b6c);
+  background:  #1f2b6c;
 
-  color: var(--Accent, #bfd2f8);
+  color:  #bfd2f8;
   font-family: Work Sans;
   font-size: 12px;
   font-style: normal;
@@ -101,7 +101,7 @@
 }
 
 .heading {
-  color: var(--white, #fcfefe);
+  color:  #fcfefe;
   font-family: Yeseva One;
   font-size: 28px;
   font-style: normal;
@@ -111,7 +111,7 @@
 }
 
 .navMenu {
-  color: var(--Primary, #1f2b6c);
+  color:  #1f2b6c;
   font-family: Work Sans;
   font-size: 20px;
   font-weight: 400;

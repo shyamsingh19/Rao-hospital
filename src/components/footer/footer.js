@@ -10,6 +10,10 @@ import youtube from "../../assets/youtube.png";
 
 const Footer = () => {
     return (
+     <div  className='footer_background'>   
+
+
+
         <div className='footer'>
 
             <div className='footer_parent'>
@@ -61,7 +65,7 @@ const Footer = () => {
 
             <div className='copywright'>
                 <div>
-                    <span> © 2021 Hospital’s name All Rights Reserved by PNTEC-LTD   </span>
+                    <span> Copyright © 2024 CyberCoder Technology  Pvt. Ltd. All rights reserved. </span>
 
                 </div>
 
@@ -88,9 +92,13 @@ const Footer = () => {
                   
                 </div>
             </div>
+       
+       
         </div>
 
 
+
+    </div>
 
 
 

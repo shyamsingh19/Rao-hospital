@@ -5,7 +5,7 @@ import About from "./components/about/about";
 import Specialties from "./components/specialties/specialties";
 import './App.css';
 import Doctors from "./components/doctors/doctors";
-import Contactus from "./components/contact/contactus";
+import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <About/>
       <Specialties/>
       <Doctors/>
-      <Contactus  className="contactcomp"/>
+      <Contact />
       <Footer />
 
     </div>
