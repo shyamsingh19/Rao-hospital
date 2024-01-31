@@ -1,83 +1,79 @@
 
 import './contact.css'
 import contact from "../../assets/contact.png";
-import React, { useRef, useState } from 'react';
+import React, {  useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  const form = useRef();
-  const [formData, setFormData] = useState({
+  // const form = useRef();
+  // const [formData, setFormData] = useState({
 
-    name: '',
-    gender: '',
-    email: '',
-    phone: '',
-    message: '',
-  });
-  const YOUR_SERVICE_ID = 'your_service_id';
-  const YOUR_TEMPLATE_ID = 'your_template_id';
-  const YOUR_PUBLIC_KEY = 'your_public_key';
+  //   name: '',
+  //   email: '',
+  //   message: '',
+  // });
+
+  const [name , setName] = useState('');
+  const [email , setEmail] = useState('');
+  const [message , setMessage] = useState('');
+
+
+
+  const YOUR_SERVICE_ID = 'service_l8w5m7i';
+  const YOUR_TEMPLATE_ID = 'template_08mhg2d';
+  const YOUR_PUBLIC_KEY = 'MiGuFxRlcWeXWvWiL';
+
+  const formtemp = {
+    from_name : name,
+    from_email : email,
+    to_name : 'abhishek',
+    message : message
+  };
 
   const handleSubmit = (e) => {
+    
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, e.target, YOUR_PUBLIC_KEY)
-      .then((result) => {
-        console.log(result.text);
+ 
+    emailjs.send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, formtemp, YOUR_PUBLIC_KEY)
+      .then((response) => {
+        console.log("Email sent successfully ", response);
+        window.alert(" Form submited successfully");
+        setName('');
+        setEmail('');
+        setMessage('');
       })
       .catch((error) => {
-        console.log(error.text);
+        console.log("Error sending email:" , error);
       });
-    setFormData({
-      name: '',
-      gender: '',
-      email: '',
-      phone: '',
-      message: '',
-    });
-  };
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
+    
+  }
+
   return (
-    <div className='contact_wrap' id="contact">
+    <div id="contact">
+      <div className='contact_wrap' >
       <div className='image_wrap'>
         <img src={contact} alt="ContactUs" />
       </div>
       <div className='contactform'>
-        <form method="submit" ref={form} >
+        <h2>Contact Us</h2>
+        <p className="contactpara"> Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit . Iste dolorum atque similique praesentium soluta.</p>
+        <form  onSubmit={handleSubmit} >
           <div>
-            <label>Name</label>
-            <input type='text' required name='name' value={formData.name} onChange={handleInputChange} />
-          </div>
-
-          <div>
-            <label>Gender</label>
-            <input type='text' required name='gender' value={formData.gender} onChange={handleInputChange} />
-          </div>
-
-          <div>
-            <label>Email</label>
-            <input type='email' required name='email' value={formData.email} onChange={handleInputChange} />
-          </div>
-
-          <div>
-            <label>Phone</label>
-            <input type='number' name='phone' value={formData.phone} onChange={handleInputChange} required />
+            {/* <label>Name</label> */}
+            <input type='text' required  value={name} onChange={(e) => setName(e.target.value)} placeholder="Full Name" />
           </div>
           <div>
-            <label>Message</label>
-            < textarea name='message' value={formData.message} onChange={handleInputChange} required />
+            <input type='email' required  value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
           </div>
+          <div>
+            < textarea  value={message} onChange={(e) => setMessage(e.target.value)} required  placeholder="Dear Doctor"/>
+          </div>
+          <button type='submit' className='submit_button'>Submit </button>
         </form>
-        <button type='submit' className='submit_button' onClick={handleSubmit}>Submit </button>
+        
       </div>
 
-
+      </div>
     </div>
   )
 }

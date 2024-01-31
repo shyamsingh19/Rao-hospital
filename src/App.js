@@ -7,19 +7,25 @@ import './App.css';
 import Doctors from "./components/doctors/doctors";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import Gallery from "./components/gallery/gallery";
+
+
+
 
 function App() {
   return (
-    <div className="app_wrap">
+   <>  
       <Navbar />
       <Home />
       <About/>
       <Specialties/>
-      <Doctors/>
+      {/* <Doctors/> */}
       <Contact />
+      <Gallery />
       <Footer />
 
-    </div>
+    </>
+    
   );
 }
 

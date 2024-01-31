@@ -1,31 +1,41 @@
 import React from "react";
 import "./about.css";
-import learnmore from "../../assets/learnmore.png";
-import doctors from "../../assets/doctors.png";
-// import { Link } from "react-scroll";
+
+import treatment from "../../assets/treatment.jpg";
+import bed5 from "../../assets/bed5.jpg";
+import lab3 from "../../assets/lab3.jpg";
+
+
 
 const About = () => {
   return (
     <section id="about">
-      <div className="aboutcontent">
-        <h3 className="smallheading">Welcome to Meddical</h3>
-        <h2 className="largeheading">A Great Place to Receive Care</h2>
-        <p className="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          placerat scelerisque tortor ornare ornare. Convallis felis vitae
-          tortor augue. Velit nascetur proin massa in. Consequat faucibus
-          porttitor enim et.
-        </p>
+     <div className="aboutuswrap">
+      
+<div className="aboutsecondfirst">
+<section>
+<img src={lab3 } />
+</section>
 
-        <span className="learnmore">
-          <a href="www" className="learntext">
-            Learn more
-            <img src={learnmore} alt="learnmore" className="learnarrow" />
-          </a>
-        </span>
+<section>
+<img src={bed5 } />
+</section>
+</div>
+<div >
+<section className="aboutsecondimage"> 
+  <img src={treatment } />
+</section>
+</div>
+<div className="aboutcontent">
 
-        <img src={doctors} alt="" className="doctors" />
-      </div>
+  <h2>Personal care
+& healthy living</h2>
+
+<p> We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
+<button type="button"> About us</button>
+</div>
+
+     </div>
     </section>
   );
 };

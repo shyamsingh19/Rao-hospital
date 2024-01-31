@@ -1,18 +1,73 @@
 #Navbar {
-  background: #1f2b6c;
+ 
   display: flex;
-  max-width: 1440px;
+  max-width: 1240px;
   width: 100%;
-  height: 80px;
-  padding: 0 40px;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 3;
+  z-index: 9;
   overflow: hidden;
 }
 
+.Logo_warap{
+width: 68px;
+height: 70px;
+overflow: hidden;
+}
+
+.Logo_warap img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar_wrap{
+/* background-color: white; */
+padding: 10px;
+}
+
+
+.upper_head{
+  background-color:#1f2b6c;
+  padding: 15px;
+}
+
+.dflex{
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+
+}
+.dflex p{
+
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  
+
+}
+
+
+
+.upper_head_wrap{
+  max-width: 1240px;
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon_color{
+  color: white;
+  margin-top: 1px;
+  font-size: 20px;
+}
 
 .textBtnContainer {
   display: flex;
@@ -29,14 +84,21 @@
 }
 
 .deskMenuListItem {
-  color: #fcfefe;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: #222;
+    font-family: "Exo", sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all .25s ease;
+
 }
 
 .deskMenuListItem:hover {
   cursor: pointer;
 }
 
-.searchapp {
+/* .searchapp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +112,7 @@
 
 .searchIcon:hover {
   cursor: pointer;
-}
+} */
 
 .appointmentbtn {
   border: none;
@@ -67,6 +129,9 @@
   font-weight: 500;
   line-height: normal;
 }
+.upper_head_wrap {
+  color: white;
+}
 
 .appointmentbtn:hover {
   cursor: pointer;
@@ -74,13 +139,9 @@
 
 .appointmentbtnmob {
   border: none;
-  /* display: inline-flex; */
   padding: 6px 10px;
-  /* align-items: flex-start; */
-  /* gap: 10px; */
   border-radius: 50px;
   background:  #1f2b6c;
-
   color:  #bfd2f8;
   font-family: Work Sans;
   font-size: 12px;
@@ -98,11 +159,11 @@
 .openvector {
   width: 24px;
   height: 16.8px;
+  background-color: #1f2b6c;
 }
 
 .heading {
-  color:  #fcfefe;
-  font-family: Yeseva One;
+  color:  black;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -112,20 +173,22 @@
 
 .navMenu {
   color:  #1f2b6c;
-  font-family: Work Sans;
   font-size: 20px;
   font-weight: 400;
-
-  position: absolute;
+ 
+  position: fixed;
   align-items: center;
-  top: 3rem;
-  right: 2.5rem;
-  z-index: 2;
+top: 58px;
+right: 35px;
+
+  z-index: 9999;
   flex-direction: column;
   padding: 0.3rem;
   min-width: 6rem;
   background: #bfd2f8;
   border-radius: 0.2rem;
+
+  
 }
 
 .listItem {
@@ -136,44 +199,47 @@
 }
 
 @media screen and (max-width: 1024px) {
-  #Navbar {
-    height: 75px;
-  }
+ 
 
   .textBtnContainer {
     gap: 15px;
     font-size: 1.8vw;
   }
 
-  .searchIcon {
+  /* .searchIcon {
     width: 15px;
     height: 15px;
     margin-right: 30px;
-  }
+  } */
 
   .appointmentbtn {
     padding: 10px 30px;
     gap: 8px;
     font-size: 12px;
   }
+  .dflex p {
+    font-size: 14px;
+  }
+
 }
 
+
 @media screen and (max-width: 768px) {
-  #Navbar {
-    height: 70px;
-    padding: 8px auto;
+ 
+  .dflex p {
+    font-size: 12px;
   }
 
   .textBtnContainer {
     gap: 8px;
     font-size: 2vw;
   }
-
+/* 
   .searchIcon {
     width: 10px;
     height: 10px;
     margin-right: 20px;
-  }
+  } */
 
   .appointmentbtn {
     padding: 5px 10px;
@@ -182,6 +248,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .upper_head{
+    display: none;
+  }
   .textBtnContainer {
     font-size: 1.7vw;
   }
@@ -191,14 +260,12 @@
 }
 
 @media screen and (max-width: 550px) {
-  .textBtnContainer,
-  .searchapp {
+  .textBtnContainer{
+ 
     display: none;
-  }
+  } 
 
-  #Navbar {
-    height: 70px;
-  }
+ 
 
   .mobmenu {
     display: flex;
@@ -207,17 +274,17 @@
     font-size: 28px;
   }
 
-  .searchmob {
+  /* .searchmob {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
-  .searchIcon {
+  /* .searchIcon {
     width: 20px;
     height: 20px;
     margin-right: 30px;
-  }
+  } */
 
   .openvector {
     width: 24px;
@@ -226,7 +293,5 @@
 }
 
 @media screen and (max-width: 425px) {
-  #Navbar {
-    padding: 0 20px;
-  }
+  
 }

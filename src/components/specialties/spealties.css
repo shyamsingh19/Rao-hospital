@@ -1,27 +1,44 @@
 #specialties {
   margin-top: 100px;
   overflow: hidden;
+  /* height: 990px; */
+  background-color: #f4f9fc;
+  padding: 20px;
+}
+
+.speciality_wrap{
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  /* padding: 100px 0px; */
+
 }
 .specialsmallhead {
-  color:  #159eec;
+  margin-bottom: 0.5rem;
   text-align: center;
-  font-family: Work Sans;
-  font-size: 18px;
-  font-style: normal;
+  line-height: 1.2;
   font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.88px;
+  font-size: 44px;
+  color: #223a66;
   text-transform: uppercase;
+  /* padding-top: 180px; */
 }
+.red_bar{
+  width: 40px;
+  height: 5px;
+  background: #e12454;
+  margin: 0 auto;
+}
+
+
 .speciallargehead {
   color:  #1f2b6c;
   text-align: center;
-  font-family: Yeseva One;
-  font-size: 32px;
+
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  margin-top: 8px;
+  line-height: 30px;
+  margin-top: 30px;
 }
 .specialimg {
   width: 50px;
@@ -29,13 +46,11 @@
   flex-shrink: 0;
 }
 .specialimgtext {
-  color:  #212124;
-  font-family: Work Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+  font-size: 24px;
   line-height: normal;
-  margin: 5px;
+ 
 }
 .allspecial {
   display: flex;
@@ -46,37 +61,68 @@
 .specialheading{
  cursor: default;
 }
-.special1,
-.special2 {
+.special1{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  gap: 20px;
   cursor: pointer;
+  width: 100%;
 }
 
 .special {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 248px;
+  max-width: 350px;
+  width: 100%;
   height: 172px;
   border-radius: 5px;
-  margin: 5px 5px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  
+}
+.special p {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: #6F8BA4;
+  font-weight: 400;
+   margin-top: 10px;
 }
 
-.special:hover {
+.special_Icon{
+  color: rgb(225, 36, 84);
+  font-size: 50px;
+}
+.first_cell{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* .special:hover {
   background:  #1f2b6c;
-}
-.special:hover .specialimgtext {
+} */
+
+/* .special:hover .specialimgtext {
   color:  #bfd2f8;
-}
+} */
 
 @media screen and (max-width:768px) {
-  .special1,
+  /* .special1,
 .special2 {
   display: block;
+} */
+
+  
 }
 
+
+@media screen and (max-width:576px) {
+ 
+  .specialsmallhead {
+   font-size: 28px; 
+  }
   
 }
