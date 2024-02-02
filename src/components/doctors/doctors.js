@@ -6,9 +6,14 @@ import doctor3 from "../../assets/doctor3.png";
 import linkedin from "../../assets/linkedin.png";
 import insta from "../../assets/insta.png";
 import fb from "../../assets/fb.png";
+import Footer from "../footer/footer";
+import Header from "../header/header";
+
 
 const Doctors = () => {
   return (
+    <>
+    <Header />    
     <section id="doctors">
       <div className="docheading">
         <h4 className="smalldocheading">Trusted Care</h4>
@@ -83,6 +88,9 @@ const Doctors = () => {
         </span>
       </div>
     </section>
+
+    <Footer />
+    </>
   );
 };
 

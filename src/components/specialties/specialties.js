@@ -10,8 +10,14 @@ import { TbEmergencyBed } from "react-icons/tb";
 import { FaSyringe } from "react-icons/fa";
 import { GiTestTubes } from "react-icons/gi";
 
+import Footer from "../footer/footer";
+import Header from "../header/header";
+
+
 const Specialties = () => {
   return (
+    <>
+    <Header />  
     <section id="specialties">
 
 <div className="speciality_wrap">  
@@ -91,6 +97,8 @@ const Specialties = () => {
 </div>
 
     </section>
+    <Footer />
+    </>
   );
 };
 

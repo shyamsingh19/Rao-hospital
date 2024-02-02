@@ -6,6 +6,7 @@ import instagram from "../../assets/instagrame.png";
 import twitter from "../../assets/twitter.png";
 import youtube from "../../assets/youtube.png";
 import Logo from "../../assets/logo.png"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -39,7 +40,7 @@ const Footer = () => {
                     <div className='secondcell'>
                         <h6>Important Links</h6>
                         <ul>
-                            <li> Appointment</li>
+                            <li><Link to="gallery">Gallery</Link></li>
                             <li> Doctor </li>
                             <li> Service</li>
                             <li> About us</li>
@@ -64,15 +65,16 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <hr className='line'></hr>
-                <div className='copywright'>
+                {/* <hr className='line'></hr> */}
+               
+            </div>
+            <div className='copywright'>
                     <div>
                         <span> Copyright © 2024 CyberCoder Technology  Pvt. Ltd. All rights reserved. </span>
 
                     </div>
                     
                 </div>
-            </div>
         </div>
     )
 }

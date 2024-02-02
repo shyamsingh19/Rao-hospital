@@ -4,11 +4,18 @@ import "./about.css";
 import treatment from "../../assets/treatment.jpg";
 import bed5 from "../../assets/bed5.jpg";
 import lab3 from "../../assets/lab3.jpg";
+import Footer from "../footer/footer";
+import Header from "../header/header";
+
 
 
 
 const About = () => {
   return (
+    <>
+    
+<Header />
+  
     <section id="about">
      <div className="aboutuswrap">
       
@@ -37,6 +44,8 @@ const About = () => {
 
      </div>
     </section>
+    <Footer />
+    </>
   );
 };
 

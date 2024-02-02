@@ -3,6 +3,9 @@ import './contact.css'
 import contact from "../../assets/contact.png";
 import React, {  useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Footer from '../footer/footer';
+
+import Header from '../header/header';
 
 const Contact = () => {
   // const form = useRef();
@@ -49,6 +52,9 @@ const Contact = () => {
   }
 
   return (
+    <>
+    
+    <Header />
     <div id="contact">
       <div className='contact_wrap' >
       <div className='image_wrap'>
@@ -75,6 +81,8 @@ const Contact = () => {
 
       </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

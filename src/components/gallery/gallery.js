@@ -22,11 +22,18 @@ import treatment3 from "../../assets/treatment3.jpg"
 import maindoctor from "../../assets/maindoctor.jpg"
 import banner from "../../assets/banner.jpg"
 
+import Footer from '../footer/footer';
+import Header from '../header/header';
+
+
 
 
 const Gallery = () => {
     return (
 
+        <>
+    
+      <Header />
         <section id="gallery">
 
             <div className='gallery_wrap'>
@@ -80,6 +87,8 @@ const Gallery = () => {
                 </div>
             </div>
         </section>
+        <Footer />
+        </>
     )
 }
 
