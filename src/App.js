@@ -8,36 +8,37 @@ import Doctors from "./components/doctors/doctors";
 import Contact from "./components/contact/contact";
 import Gallery from "./components/gallery/gallery";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Internalmedicine from "./components/pages/Internalmedicine/internalmedicine"
+import Paeditrics from "./components/pages/paeditrics/paeditrics"
 
 
 
 
 function App() {
   return (
-   <>  
-      {/* <Navbar />
-      <Home />
-      <About/>
-      <Specialties/>
-      <Doctors/>
-      <Contact />
-      <Gallery />
-      <Footer /> */}
+    <>
+
 
       <BrowserRouter>
-      <Routes>
-        {/* <Route index element={<Home />}> </Route> */}
-        <Route path="/" element={<Home />}> </Route>
-        <Route path="/about" element={<About />}> </Route>
-        <Route path="/specialities" element={<Specialties />}> </Route>
-        <Route path="/doctors" element={<Doctors />}> </Route>
-        <Route path="/contact" element={<Contact/>}> </Route>
-        <Route path="/gallery" element={<Gallery/>}> </Route>
-      </Routes>
+        <Routes>
+
+          <Route path="/" element={<Home />}> </Route>
+          <Route path="/about" element={<About />}> </Route>
+          <Route path="/specialities/" element={<Specialties />}>
+
+            <Route path="Internalmedicine" element={<Internalmedicine />} />
+            <Route path="paeditrics" element={<Paeditrics />} />
+          </Route>
+
+
+          <Route path="/doctors" element={<Doctors />}> </Route>
+          <Route path="/contact" element={<Contact />}> </Route>
+          <Route path="/gallery" element={<Gallery />}> </Route>
+        </Routes>
       </BrowserRouter>
 
     </>
-    
+
   );
 }
 

@@ -2,17 +2,22 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import "./header.css";
 import Logo from "../../assets/logo.png";
-import { MdMarkEmailRead } from "react-icons/md";
+
 import { MdAddLocationAlt } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
+import { MdMarkEmailRead } from "react-icons/md";
 import openvector from '../../assets/Vector-open.png'
 
+import { GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
   
  <>
+
+  
+<div className="header_wrap">   
   
       <div className="upper_head">
         <div className="upper_head_wrap">
@@ -36,7 +41,7 @@ const Header = () => {
         </div>
       </div>
       <div className="navbar_wrap">
-        <nav id="Navbar">
+        <nav className="Navbar">
           <div className="Logo_warap"> <img src={Logo} alt="Loakram" /> </div>
 
           <div className="textBtnContainer">
@@ -51,8 +56,8 @@ const Header = () => {
           </div>
           <div className="mobmenu">
             <div className="searchmob">
-
-              <img src={openvector} alt="" className="openvector" onClick={() => setShowMenu(!showMenu)} />
+            <GiHamburgerMenu onClick={() => setShowMenu(!showMenu)} className="openvector" />
+              
             </div>
 
             <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
@@ -72,6 +77,7 @@ const Header = () => {
 
         </nav>
       </div>
+      </div> 
     </>
   );
 };

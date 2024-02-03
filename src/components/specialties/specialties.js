@@ -12,6 +12,7 @@ import { GiTestTubes } from "react-icons/gi";
 
 import Footer from "../footer/footer";
 import Header from "../header/header";
+import { Link, Outlet } from "react-router-dom";
 
 
 const Specialties = () => {
@@ -29,20 +30,31 @@ const Specialties = () => {
 
       <div className="allspecial">
         <div className="special1">
+        <Link to='Internalmedicine'> 
           <div className="special">
+          
             <div className="first_cell">
           <GiMedicines className="special_Icon" />
             <h6 className="specialimgtext">Internal medicine </h6>
             </div>
             <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+         
           </div>
+          </Link>
+           
+            <Link to="paeditrics">
           <div className="special">
+          
           <div className="first_cell">
           <FaBaby  className="special_Icon" />
             <h6 className="specialimgtext">Paeditrics</h6>
             </div>
             <p> Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+           
           </div>
+          </Link>
+          <Outlet />
+        
           <div className="special">
           <div className="first_cell">
           <GiStomach  className="special_Icon" />
@@ -91,7 +103,7 @@ const Specialties = () => {
             <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
           </div>
 
-
+       
         </div>
       </div>
 </div>

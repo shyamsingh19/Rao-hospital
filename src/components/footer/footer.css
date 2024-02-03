@@ -28,7 +28,7 @@
      margin-top: 70px;
      margin-bottom: 47px;
      text-align: left;  
-     height: 187px;  
+     /* height: 187px;   */
  }
  
  .footer div h6{
@@ -39,7 +39,13 @@
  line-height: normal;
  margin-bottom: 40px;
  }
+ .footer div a{
+    color: white;
+ }
 
+ .footer div a:hover{
+    color: yellow;
+ }
    .Logo_warap{
     width: 68px;
     height: 70px;
@@ -60,10 +66,27 @@
  line-height: 140%; 
  margin: 12px 0;
  cursor: pointer;
+ display: flex;
+ align-items: center;
+ gap: 2px;
+ }
+ #location_height{
+   line-height:90% !important;
  }
 
+ .icon_color_footer_location{
+ font-size: 20px;
+ }
  .footer div li:hover{
-    color: black
+    color:yellow;
+ }
+ .footer div li  span{
+ display: inline-block;
+
+ }
+ .icon_color_footer{
+   margin-top: 7px;
+   font-size: 20px;
  }
  
  .last_cell{
@@ -72,6 +95,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
  }
 
 
@@ -85,17 +109,12 @@
      
  
  }
- 
 
- 
  .copywright{
     display: flex;
     justify-content: space-around;
     background-color: black;
 }
-
- 
- 
  .copywright span{
    color: #ffffff;
    font-weight: 400;
@@ -198,5 +217,13 @@
      }
      .footer{
         padding: 10px;
+     }
+     .footer div li{
+      margin: 2px 0;
+      line-height: normal;
+     }
+
+     .footer div h6{
+      margin: 0;
      }
 }

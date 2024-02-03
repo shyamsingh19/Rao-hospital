@@ -8,6 +8,7 @@ import { HiUserGroup } from "react-icons/hi2";
 
 import Footer from "../footer/footer";
 import Header from "../header/header";
+import { Link } from "react-router-dom";
 
 
 
@@ -31,8 +32,9 @@ const Home = () => {
             <h1> Your most trusted health partner</h1>
             <p className="parab"> A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.  </p>
 
-            <div class="btn-container ">
-              <a href="/" target="_blank" className="btn" > <span>  Contact Us  </span> <MdKeyboardArrowRight className="arrowcolor" /> <span>   </span>  </a>
+            <div className="btn-container ">
+              <Link to="/contact" className="btn">   <span>  Contact Us  </span> <MdKeyboardArrowRight className="arrowcolor" /> <span>   </span> </Link>
+              {/* <a href="/" target="_blank" className="btn" >  </a> */}
             </div>
 
           </div>

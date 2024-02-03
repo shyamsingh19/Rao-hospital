@@ -1,6 +1,6 @@
 
 import './contact.css'
-import contact from "../../assets/contact.png";
+import contact from "../../assets/treatment.jpg";
 import React, {  useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Footer from '../footer/footer';

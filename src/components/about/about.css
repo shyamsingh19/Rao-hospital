@@ -1,7 +1,5 @@
 #about {
-
 background-color: #ffffff;
-
 margin-bottom: 60px;
 padding: 20px;
 }
@@ -16,65 +14,51 @@ padding: 20px;
     flex-wrap: wrap;
     
 }
-  .aboutuswrap div{
-   max-width: 350px;
-
-   }
-   .aboutcontent{
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-     padding: 10px;
- 
-     border-radius: 5px;
-   }
-
-.aboutcontent h2{
+  
+ .aboutuswrap h2{
     margin-bottom: 0.5rem;
     line-height: 1.2;
     font-weight: 700;
     font-size: 44px;
     color: #223a66;
-    text-transform: uppercase;
+    
 }
 
-.aboutcontent p{
+.aboutuswrap  p{
     color: #1f2b6c;
     justify-content: flex-start;
-    font-style: normal;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.63043em;
+    padding-left: 40px;
   
 }
-.aboutsecondfirst{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-
-    border-radius: 5px;
-}
-.aboutsecondfirst section{
-    max-width:350px;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    box-shadow: rgba(0, 42, 106, 0.1) 0px 0px 30px 0px;
-    border-radius: 5px;
+.aboutuswrap h5{
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 22px;
+    color: #223a66;
+    margin-bottom: 40px;
+ 
 }
 
-.aboutsecondfirst section img{
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+ul{
+    margin: 20px 0;
 }
+
+ul li{
+
+    margin: 10px 0;
+}
+
+
 
 .aboutsecondimage{
-    max-width:350px;
+    max-width: 700px;
+    height: 400px;
     width: 100%;
-    height: 100%;
+    margin: 40px auto;
     overflow: hidden;
     box-shadow: rgba(0, 42, 106, 0.1) 0px 0px 30px 0px;
     border-radius: 5px;
@@ -85,32 +69,11 @@ padding: 20px;
     height: 100%;
     object-fit: cover;
 }
-.aboutcontent button{
-    margin-top: 70px;
-    display: inline-block;
-    font-size: 14px;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    letter-spacing: .5px;
-    padding: 0.75rem 2rem;
-    text-transform: uppercase;
-    border-radius: 5px;
-    border: 2px solid transparent;
-    transition: all .35s ease;
-    background: #e12454;
-    color: #fff;
-    border-color: #e12454;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    max-width: 155px;
 
-}
 @media screen and (max-width: 1110px) {
 .aboutcontent{
  max-width: 100% !important;
-  margin-top: 20px;
+  
 }
 .aboutuswrap{
     justify-content: center;
@@ -121,8 +84,14 @@ padding: 20px;
     .aboutuswrap div{
         width: 100%;
     }
-    .aboutcontent h2{
-        font-size: 28px;
+     .aboutuswrap h2{
+        font-size: 22px;
+    }
+    .aboutuswrap h5{
+   font-size: 17px;
+    }
+     .aboutuswrap p{
+        font-size: 16px;
     }
 }
 
