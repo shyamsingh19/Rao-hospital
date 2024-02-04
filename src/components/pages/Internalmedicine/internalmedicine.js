@@ -1,10 +1,20 @@
 import React from 'react'
+import Footer from '../../footer/footer'
+import Header from '../../header/header'
+import "./internalmedicine.css"
 
 const Internalmedicine = () => {
   return (
-    <div>
-      <p> internalm3edicine </p>
-    </div>
+    <>
+    <Header />
+    <section className='internalmedicine_wrap'>
+
+    <p> internalm3edicine </p>
+
+    </section>
+   
+    <Footer />
+    </>
   )
 }
 

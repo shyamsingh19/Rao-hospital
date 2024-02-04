@@ -1,18 +1,20 @@
 import React from 'react'
 import Header from '../../header/header'
 import Footer from '../../footer/footer'
-import "./paeditrics.css"
+import "./diabetology.css"
 
-const Paeditrics = () => {
+const Diabetology = () => {
   return (
     <>
     <Header />
-    <section className='paeditric_wrap'>
-    <p> Peaditrics </p>
+    <section className='diabetology_wrap'>
+    <p>  Diabetology</p>
+
     </section>
+    
       <Footer />
     </>
   )
 }
 
-export default Paeditrics
+export default Diabetology

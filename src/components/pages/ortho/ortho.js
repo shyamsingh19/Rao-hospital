@@ -1,18 +1,17 @@
 import React from 'react'
 import Header from '../../header/header'
 import Footer from '../../footer/footer'
-import "./paeditrics.css"
-
-const Paeditrics = () => {
+import "./ortho.css"
+const Ortho = () => {
   return (
     <>
     <Header />
-    <section className='paeditric_wrap'>
-    <p> Peaditrics </p>
-    </section>
+     <section className='ortho_wrap'>
+     <p> ortho</p>
+     </section>
       <Footer />
     </>
   )
 }
 
-export default Paeditrics
+export default Ortho

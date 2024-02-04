@@ -68,7 +68,6 @@
   flex-wrap: wrap;
   justify-content:flex-start;
   align-items: center;
-  justify-content: center;
   gap: 20px;
   cursor: pointer;
   width: 100%;
@@ -104,19 +103,10 @@
   gap: 40px;
 }
 
-/* .special:hover {
-  background:  #1f2b6c;
-} */
 
-/* .special:hover .specialimgtext {
-  color:  #bfd2f8;
-} */
 
 @media screen and (max-width:768px) {
-  /* .special1,
-.special2 {
-  display: block;
-} */
+ 
 
   
 }
