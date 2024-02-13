@@ -14,11 +14,7 @@ import Footer from "../footer/footer";
 import Header from "../header/header";
 import { Link } from "react-router-dom";
 
-
 const Specialties = () => {
-
-  
-
 
   return (
     <>
@@ -41,7 +37,7 @@ const Specialties = () => {
                     <GiMedicines className="special_Icon" />
                     <h6 className="specialimgtext">Internal medicine </h6>
                   </div>
-                  <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                  <p> Internal medicine is a broad field of medicine that focuses on the prevention, diagnosis,</p>
 
                 </div>
               </Link>
@@ -53,18 +49,18 @@ const Specialties = () => {
                     <FaBaby className="special_Icon" />
                     <h6 className="specialimgtext">Paeditrics</h6>
                   </div>
-                  <p> Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                  <p> The World of Caring for Children</p>
 
                 </div>
               </Link>
-             
+
 
               <Link to="/specialities/gyna" >  <div className="special">
                 <div className="first_cell">
                   <GiStomach className="special_Icon" />
                   <h6 className="specialimgtext">Gynae and obs</h6>
                 </div>
-                <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                <p>Gynaecology and obstetrics are two closely related fields of medicine that focus on women's health.</p>
               </div>    </Link>
 
 
@@ -75,7 +71,7 @@ const Specialties = () => {
                     <GiCrossedBones className="special_Icon" />
                     <h6 className="specialimgtext">Ortho </h6>
                   </div>
-                  <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                  <p>This is a branch of medicine that focuses on the musculoskeletal system, which includes bones, joints, muscles, ligaments, tendons, and nerves.</p>
                 </div>
               </Link>
 
@@ -86,7 +82,7 @@ const Specialties = () => {
                     <FaUserDoctor className="special_Icon" />
                     <h6 className="specialimgtext">Laproscopic surgeries </h6>
                   </div>
-                  <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                  <p>It's a popular alternative to traditional open surgery</p>
                 </div>
 
 
@@ -101,12 +97,9 @@ const Specialties = () => {
                     <h6 className="specialimgtext">
                       Emergency and Trauma </h6>
                   </div>
-                  <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                  <p> Emergency medicine and trauma care are closely related fields, both dealing with urgent and life-threatening situations. </p>
                 </div>
               </Link>
-
-
-
 
               <Link to="/specialities/diabetology">
                 <div className="special">
@@ -115,23 +108,25 @@ const Specialties = () => {
                     <h6 className="specialimgtext">
                       Diabetology </h6>
                   </div>
-                  <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                  <p>
+                    Diabetology is a branch of medicine that specializes in the diagnosis, management, and treatment of diabetes mellitus. </p>
                 </div>
               </Link>
 
-              <Link  to="/specialities/laboratory">
+              <Link to="/specialities/laboratory">
 
                 <div className="special">
                   <div className="first_cell">
                     <GiTestTubes className="special_Icon" />
                     <h6 className="specialimgtext">laboratory </h6>
                   </div>
-                  <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                  <p>
+A laboratory, also known as a lab, is a facility designed for conducting scientific experiments, research, and measurement</p>
                 </div>
 
               </Link>
 
-            
+
             </div>
           </div>
         </div>

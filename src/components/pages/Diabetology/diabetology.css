@@ -1,5 +1,25 @@
 .diabetology_wrap{
-    margin: 200px auto;
+    margin: 250px auto;
     max-width: 1240px;
     width: 100%;
+}
+
+
+.diabetology_wrap p{
+    color: #1f2b6c;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.63043em;
+    padding-left: 40px;
+    
+}
+
+.diabetology_wrap ul{
+ padding-left: 60px;
+}
+
+
+.diabetology_wrap ul li {
+    list-style-type: disc;
 }

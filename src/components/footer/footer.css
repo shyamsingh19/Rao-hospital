@@ -1,11 +1,12 @@
 
 .footer_background{
    
-    
+/*     
         background-image: linear-gradient(to bottom, rgb(246 9 80), rgb(237 225 219 / 73%)), url('../../assets/stetascope.jpeg');
-        background-size: cover;
+        background-size: cover; */
    
-    
+    background: linear-gradient(to bottom, rgb(246 9 80), rgb(237 225 219 / 73%));
+    position: relative;
     
 }
 .footer{
@@ -159,6 +160,33 @@
     vertical-align: middle;
     height: auto;
  }
+
+ .whatapp{
+   position: fixed;
+   bottom: 90px;
+   right: 90px;
+ 
+   z-index: 9999;
+   border-radius: 50%;
+  width: 50px;
+  height: 50px;
+   background-color: green;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+ }
+
+.whatapplogo{
+
+   color: white;
+   font-size: 30px;
+   
+
+}
+ 
  
  @media  screen and (max-width:1024px)  {
     
@@ -174,7 +202,7 @@
 
  
      .footer_parent div{
-         width: 33%;
+         width: 35%;
          margin-top: unset;
          height: unset;
          padding: 2%;

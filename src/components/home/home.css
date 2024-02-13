@@ -1,21 +1,77 @@
-#home{
- 
-   margin: 180px 0;
- 
+#home{ 
+   margin-top: 225px;
   
 }
 
 .home_parent{
 
-  background:url('../../assets/doctor.jpg') no-repeat;
+  background:url('../../assets/newimg.jpg') no-repeat;
 
   filter: brightness(1.2);
   background-size: cover;
   background-position: center top 0px;
 }
-.home_wrap{
 
-  /* position: relative; */
+.hesitate{
+  padding-top: 40px;
+  background:url('../../assets/healthcareservices.png') no-repeat;
+  background-color: #b5e79e;
+  
+}
+.our_testinomial{
+  height: 400px;
+}
+
+.our_testinomial h3{
+ 
+text-align: center;
+padding-top: 40px;
+font-size: 40px;
+color:pink;
+
+}
+.testimonial_wrap{
+
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.hesitate_wrap p{
+  color: white;
+  font-size: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 120%;
+
+
+}
+.hesitate_wrap h2{
+  color: white;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 120%;
+
+
+}
+.hesitate_wrap{
+
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 200px;
+  flex-direction: column;
+
+}
+
+
+.home_wrap{
   height: 600px;
   
 }
@@ -25,7 +81,7 @@
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-  /* position: relative; */
+  
 
 }
 
@@ -48,7 +104,7 @@
   letter-spacing:2px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #223a66;
+  color: #ffffff;
   font-weight: 500;
   line-height: 120%;
 
@@ -59,7 +115,7 @@ h1{
   line-height: 1.2;
   letter-spacing: -1.2px;
   text-transform: capitalize;
-  color: #223a66;
+  color: #ffffff;
   margin: 20px 0;
 }
 .banner_wrap{
@@ -72,9 +128,9 @@ h1{
 .parab{
 
   letter-spacing:0.5px;
-  font-size: 16px;
-  /* text-transform: uppercase; */
-  color: #223a66;
+  font-size: 18px;
+
+  color: #ffffff;
   font-weight: 400;
   line-height: 120%;
   margin-bottom: 20px;
@@ -119,6 +175,7 @@ h1{
   top: -100px;
 
 }
+
 
 .card_item{
   max-width: 400px;
@@ -185,7 +242,20 @@ h1{
   gap: unset;
 }
 
+.hesitate_wrap{
 
+  height: auto;
+  padding: 40px;
+}
+.hesitate_wrap p{
+  font-size: 16px;
+}
+.hesitate_wrap h2{
+  font-size: 24px;
+}
+.home_wrap{
+  height: 480px;
+}
  
 }
 
@@ -204,6 +274,7 @@ h1{
     font-size: 30px;
     margin: 10px 0;
   }
+  
 }
 @media screen and (max-width: 550px) {
 

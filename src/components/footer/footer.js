@@ -3,7 +3,7 @@ import './footer.css'
 
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagrame.png";
-import twitter from "../../assets/twitter.png";
+// import twitter from "../../assets/twitter.png";
 import youtube from "../../assets/youtube.png";
 import Logo from "../../assets/logo.png"
 import { Link } from 'react-router-dom';
@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import { FiPhoneCall } from "react-icons/fi";
 import { MdMarkEmailRead } from "react-icons/md";
 import { MdAddLocationAlt } from "react-icons/md";
+import { ImWhatsapp } from "react-icons/im";
 
 const Footer = () => {
     return (
@@ -70,6 +71,14 @@ const Footer = () => {
                 </div>
                 {/* <hr className='line'></hr> */}
                
+            </div>
+
+            <div className='whatapp'>
+                
+            <a href="https://wa.me/+917042328047">   < ImWhatsapp className='whatapplogo' /> </a>
+              
+                
+                
             </div>
             <div className='copywright'>
                     <div>

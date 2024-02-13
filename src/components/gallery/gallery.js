@@ -21,11 +21,12 @@ import treatment2 from "../../assets/treatment2.jpg"
 import treatment3 from "../../assets/treatment3.jpg"
 import maindoctor from "../../assets/maindoctor.jpg"
 import banner from "../../assets/banner.jpg"
+import druma from "../../assets/druma.png"
 
 import Footer from '../footer/footer';
 import Header from '../header/header';
 
-
+import Kishan from "../../assets/kishan.jpg"
 
 
 const Gallery = () => {
@@ -53,7 +54,7 @@ const Gallery = () => {
                     <div className="column">
 
                         <img src={beds} />
-
+                        <img src={ Kishan } />
                         <img src={lab3} />
                         <img src={lab} />
                         <img src={treatment2} />
@@ -79,6 +80,7 @@ const Gallery = () => {
 
                         <img src={doctor} />
                         <img src={banner} />
+< img src={druma} />
 
 
                     </div>

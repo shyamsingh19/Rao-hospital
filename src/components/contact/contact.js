@@ -1,89 +1,86 @@
 
-import './contact.css'
-import contact from "../../assets/treatment.jpg";
-import React, {  useState } from 'react';
-import emailjs from '@emailjs/browser';
+import './contact.css';
+import axios from 'axios';
+import React, { useState } from 'react';
+// import emailjs from 'emailjs-com';
 import Footer from '../footer/footer';
-
 import Header from '../header/header';
+import contactImage from '../../assets/treatment.jpg';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
-  // const form = useRef();
-  // const [formData, setFormData] = useState({
 
-  //   name: '',
-  //   email: '',
-  //   message: '',
-  // });
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
-  const [name , setName] = useState('');
-  const [email , setEmail] = useState('');
-  const [message , setMessage] = useState('');
-
-
-
-  const YOUR_SERVICE_ID = 'service_l8w5m7i';
-  const YOUR_TEMPLATE_ID = 'template_08mhg2d';
-  const YOUR_PUBLIC_KEY = 'MiGuFxRlcWeXWvWiL';
-
-  const formtemp = {
-    from_name : name,
-    from_email : email,
-    to_name : 'abhishek',
-    message : message
-  };
 
   const handleSubmit = (e) => {
-    
     e.preventDefault();
- 
-    emailjs.send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, formtemp, YOUR_PUBLIC_KEY)
+
+    // Prepare the form data
+    const formData = new FormData();
+    formData.append('service_id', 'service_5o82xdp');
+    formData.append('template_id', 'template_08mhg2d');
+    formData.append('user_id', 'MiGuFxRlcWeXWvWiL');
+    formData.append('from_name', name);
+    formData.append('from_email', email);
+    formData.append('message', message);
+
+    // Send the email using Axios
+    axios.post('https://api.emailjs.com/api/v1.0/email/send-form', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data'
+      }
+    })
       .then((response) => {
-        console.log("Email sent successfully ", response);
-        window.alert(" Form submited successfully");
+        console.log('Email sent successfully', response);
+        
+        toast.success('Form submitted successfully!', {
+          position: "top-center"
+        });
+
+
         setName('');
         setEmail('');
         setMessage('');
       })
       .catch((error) => {
-        console.log("Error sending email:" , error);
+        console.error('Error sending email:', error);
       });
-    
-  }
+  };
 
   return (
     <>
-    
-    <Header />
-    <div id="contact">
-      <div className='contact_wrap' >
-      <div className='image_wrap'>
-        <img src={contact} alt="ContactUs" />
-      </div>
-      <div className='contactform'>
-        <h2>Contact Us</h2>
-        <p className="contactpara"> Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit . Iste dolorum atque similique praesentium soluta.</p>
-        <form  onSubmit={handleSubmit} >
-          <div>
-            {/* <label>Name</label> */}
-            <input type='text' required  value={name} onChange={(e) => setName(e.target.value)} placeholder="Full Name" />
+      <Header />
+      <div id="contact">
+        <div className='contact_wrap' >
+          <div className='image_wrap'>
+            <img src={contactImage} alt="Contact Us" />
           </div>
-          <div>
-            <input type='email' required  value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+          <div className='contactform'>
+            <h2>Contact Us</h2>
+            <p className="contactpara"> Health Care Services Don’t Hesitate, Contact Us For Better Help & Services.</p>
+            <form onSubmit={handleSubmit}>
+              <div>
+                <input type='text' required value={name} onChange={(e) => setName(e.target.value)} placeholder="Full Name" />
+              </div>
+              <div>
+                <input type='email' required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+              </div>
+              <div>
+                <textarea value={message} onChange={(e) => setMessage(e.target.value)} required placeholder="Dear Doctor"></textarea>
+              </div>
+              <button type='submit' className='submit_button'>Submit</button>
+            </form>
+            <ToastContainer />
           </div>
-          <div>
-            < textarea  value={message} onChange={(e) => setMessage(e.target.value)} required  placeholder="Dear Doctor"/>
-          </div>
-          <button type='submit' className='submit_button'>Submit </button>
-        </form>
-        
+        </div>
       </div>
-
-      </div>
-    </div>
-    <Footer />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

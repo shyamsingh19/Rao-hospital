@@ -47,8 +47,9 @@ const Header = () => {
           <div className="textBtnContainer">
 
             <Link  to='/' className="deskMenuListItem">Home</Link>
-            <Link  to='/about' className="deskMenuListItem">About</Link>
             <Link  to ='/specialities'  className="deskMenuListItem">Specialties</Link>
+            <Link  to='/about' className="deskMenuListItem">About</Link>
+          
             <Link  to='/contact'  className="deskMenuListItem" >Contact</Link>
             <Link  to='/gallery' className="deskMenuListItem">gallery</Link>
             <Link  to='/doctors' className="deskMenuListItem">Doctors</Link>

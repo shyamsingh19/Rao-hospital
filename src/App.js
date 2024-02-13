@@ -11,7 +11,7 @@ import { BrowserRouter,  Route, Routes } from "react-router-dom";
 import Internalmedicine from "./components/pages/Internalmedicine/internalmedicine"
 import Paeditrics from "./components/pages/paeditrics/paeditrics"
 
-import Diabetology from "./components/pages/Diabetology/diabetology";
+import Diabetology from "./components/pages/diabetology/diabetology";
 
 import Gyne from "./components/pages/gynae/gyne";
 import Laboratry from "./components/pages/laboratory/laboratory";
@@ -47,28 +47,6 @@ function App() {
           <Route path="/gallery" element={<Gallery />}> </Route>
         </Routes>
       </BrowserRouter>
-
-
-
-{/* <BrowserRouter>
-  <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/specialities" element={<Specialties />}>
-      <Route path="Internalmedicine" element={<Internalmedicine />} />
-      <Route path="diabetology" element={<Diabetology />} />
-      <Route path="paeditrics" element={<Paeditrics />} />
-      <Route path="gyna" element={<Gyne />} />
-      <Route path="laboratory" element={<Laboratry/>} />
-      <Route path="labroscopic" element={<Laproscopic />} />
-      <Route path="ortho" element={<Ortho />} />
-      <Route path="trauma" element={<Trauma />} />
-    </Route>
-    <Route path="/doctors" element={<Doctors />} />
-    <Route path="/contact" element={<Contact />} />
-    <Route path="/gallery" element={<Gallery />} />
-  </Routes>
-</BrowserRouter> */}
 
     </>
 

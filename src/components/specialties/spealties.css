@@ -3,7 +3,7 @@
   margin-bottom: 70px;
 
   /* height: 990px; */
-  background-color: #f4f9fc;
+  background-color: pink;
   padding: 20px;
 }
 
@@ -74,9 +74,8 @@
 }
 
 .special {
-  max-width: 350px;
-  width: 100%;
-  height: 172px;
+  width: 350px;
+  height: 200px;
   border-radius: 5px;
   background: #fff;
   padding: 30px;
@@ -118,4 +117,7 @@
    font-size: 28px; 
   }
   
+  .special {
+    width: 320px
+  }
 }
