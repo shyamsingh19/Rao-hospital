@@ -1,36 +1,38 @@
-#home{ 
-   margin-top: 225px;
-  
+#home {
+  margin-top: 225px;
+
 }
 
-.home_parent{
+.home_parent {
 
-  background:url('../../assets/newimg.jpg') no-repeat;
+  background: url('../../assets/newimg.jpg') no-repeat;
 
   filter: brightness(1.2);
   background-size: cover;
   background-position: center top 0px;
 }
 
-.hesitate{
+.hesitate {
   padding-top: 40px;
-  background:url('../../assets/healthcareservices.png') no-repeat;
+  background: url('../../assets/healthcareservices.png') no-repeat;
   background-color: #b5e79e;
-  
+
 }
-.our_testinomial{
+
+.our_testinomial {
   height: 400px;
 }
 
-.our_testinomial h3{
- 
-text-align: center;
-padding-top: 40px;
-font-size: 40px;
-color:pink;
+.our_testinomial h3 {
+
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  color: pink;
 
 }
-.testimonial_wrap{
+
+.testimonial_wrap {
 
   max-width: 1240px;
   width: 100%;
@@ -38,7 +40,7 @@ color:pink;
 
 }
 
-.hesitate_wrap p{
+.hesitate_wrap p {
   color: white;
   font-size: 44px;
   color: #ffffff;
@@ -47,7 +49,8 @@ color:pink;
 
 
 }
-.hesitate_wrap h2{
+
+.hesitate_wrap h2 {
   color: white;
   font-size: 40px;
   color: #ffffff;
@@ -56,7 +59,8 @@ color:pink;
 
 
 }
-.hesitate_wrap{
+
+.hesitate_wrap {
 
   max-width: 1240px;
   width: 100%;
@@ -71,9 +75,9 @@ color:pink;
 }
 
 
-.home_wrap{
+.home_wrap {
   height: 600px;
-  
+
 }
 
 .doctor {
@@ -81,7 +85,7 @@ color:pink;
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-  
+
 
 }
 
@@ -93,15 +97,15 @@ color:pink;
 
 
 
-.divider{
-    width: 40px;
-    height: 5px;
-    background: #e12454;
-    margin-bottom: 1rem;
+.divider {
+  width: 40px;
+  height: 5px;
+  background: #e12454;
+  margin-bottom: 1rem;
 }
 
-.total_health{
-  letter-spacing:2px;
+.total_health {
+  letter-spacing: 2px;
   font-size: 16px;
   text-transform: uppercase;
   color: #ffffff;
@@ -110,7 +114,8 @@ color:pink;
 
 
 }
-h1{
+
+h1 {
   font-size: 60px;
   line-height: 1.2;
   letter-spacing: -1.2px;
@@ -118,16 +123,17 @@ h1{
   color: #ffffff;
   margin: 20px 0;
 }
-.banner_wrap{
+
+.banner_wrap {
 
   padding: 80px 20px 160px;
   max-width: 670px;
   width: 100%;
 }
 
-.parab{
+.parab {
 
-  letter-spacing:0.5px;
+  letter-spacing: 0.5px;
   font-size: 18px;
 
   color: #ffffff;
@@ -135,36 +141,37 @@ h1{
   line-height: 120%;
   margin-bottom: 20px;
 }
-.btn span{
- display: block;
+
+.btn span {
+  display: block;
 }
 
-.btn{
-    display: inline-block;
-    font-size: 14px;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    letter-spacing: .5px;
-    padding: 0.75rem 2rem;
-    text-transform: uppercase;
-    border-radius: 5px;
-    border: 2px solid transparent;
-    transition: all .35s ease;
-    background: #e12454;
-    color: #fff;
-    border-color: #e12454;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    max-width: 200px;
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all .35s ease;
+  background: #e12454;
+  color: #fff;
+  border-color: #e12454;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 200px;
 }
 
-.arrowcolor{
+.arrowcolor {
   color: white;
 }
 
-.card_section{
+.card_section {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -177,7 +184,7 @@ h1{
 }
 
 
-.card_item{
+.card_item {
   max-width: 400px;
   width: 100%;
   margin: 0px 10px;
@@ -186,8 +193,8 @@ h1{
   min-height: 320px;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
- 
- 
+
+
 }
 
 .time_listing li {
@@ -196,21 +203,22 @@ h1{
   border-bottom: 1px solid #cfcaca;
   padding-bottom: 5px;
 }
-.time_listing li span{
+
+.time_listing li span {
   display: block;
 }
 
-.cardIcon{
-  
+.cardIcon {
+
   font-size: 50px;
   color: #223a66;
 
 }
 
-.card_section p{
+.card_section p {
 
   font-family: "Roboto", sans-serif;
-   -webkit-font-smoothing: antialiased;  
+  -webkit-font-smoothing: antialiased;
   line-height: 1.6;
   font-size: 16px;
   /* color: #6F8BA4; */
@@ -218,73 +226,83 @@ h1{
 
 }
 
-.paracard{
+.paracard {
   /* color: #6F8BA4; */
 }
 
-.card_section h5{
+.card_section h5 {
 
-    color: #223a66;
-    font-size: 1.3rem;
-    line-height: 30px;
-    font-weight: 700;
-    margin: 10px 0;
-    
+  color: #223a66;
+  font-size: 1.3rem;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+
 }
+
 @media screen and (max-width: 991px) {
- 
-  
-.card_item{
-  max-width: 340px;
-}
-.card_section {
-  justify-content: space-evenly;
-  gap: unset;
-}
 
-.hesitate_wrap{
 
-  height: auto;
-  padding: 40px;
-}
-.hesitate_wrap p{
-  font-size: 16px;
-}
-.hesitate_wrap h2{
-  font-size: 24px;
-}
-.home_wrap{
-  height: 480px;
-}
- 
+  .card_item {
+    max-width: 340px;
+  }
+
+  .card_section {
+    justify-content: space-evenly;
+    gap: unset;
+  }
+
+  .hesitate_wrap {
+
+    height: auto;
+    padding: 44px;
+  }
+
+  .hesitate_wrap p {
+    font-size: 40px;
+  }
+
+  .hesitate_wrap h2 {
+    font-size: 24px;
+  }
+
+  .home_wrap {
+    height: 480px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
   .banner_wrap {
-    padding: 100px 20px 20px;}
+    padding: 100px 20px 20px;
+  }
+
   .card_section {
-    
+
     gap: 50px
   }
-  .card_item{
+
+  .card_item {
     max-width: 450px;
   }
 
-  h1{
+  h1 {
     font-size: 30px;
     margin: 10px 0;
   }
-  
+
 }
+
 @media screen and (max-width: 550px) {
 
-  .home_parent{
+  .home_parent {
     background-position: center top 0px;
   }
-  .banner_wrap{
+
+  .banner_wrap {
 
     padding: 20px;
-}
+  }
 
 
 

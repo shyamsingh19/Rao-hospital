@@ -1,8 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-  
+
   font-family: 'Roboto', sans-serif;
 
 
@@ -31,4 +30,3 @@ body {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
 }
-

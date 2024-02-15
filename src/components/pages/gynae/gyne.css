@@ -1,21 +1,21 @@
-.gyne_wrap{
+.gyne_wrap {
     margin: 250px auto;
     max-width: 1240px;
     width: 100%;
 }
 
-.gyne_wrap p{
+.gyne_wrap p {
     color: #1f2b6c;
     justify-content: flex-start;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.63043em;
     padding-left: 40px;
-    
+
 }
 
-.gyne_wrap ul{
- padding-left: 60px;
+.gyne_wrap ul {
+    padding-left: 60px;
 }
 
 

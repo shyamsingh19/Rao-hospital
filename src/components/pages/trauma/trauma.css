@@ -1,23 +1,24 @@
-.trauma_wrap{
+.trauma_wrap {
     margin: 250px auto;
     max-width: 1240px;
     width: 100%;
 }
 
-.trauma_wrap p{
+.trauma_wrap p {
     color: #1f2b6c;
     justify-content: flex-start;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.63043em;
     padding-left: 40px;
-    
+
 }
-.trauma_wrap ul{
- padding-left: 60px;
+
+.trauma_wrap ul {
+    padding-left: 60px;
 }
 
 
-.trauma_wrap  li {
+.trauma_wrap li {
     list-style-type: disc;
 }

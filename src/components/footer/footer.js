@@ -19,8 +19,8 @@ const Footer = () => {
             <div className='footer'>
                 <div className='footer_parent'>
                     <div>
-                        <section className="Logo_warap">  
-
+                        <section className="Logo_warapfoo">  
+                              
                         <img src={Logo}  alt="logoImage" />
                         
                           </section>

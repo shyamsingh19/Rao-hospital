@@ -1,5 +1,5 @@
 .Navbar {
- 
+
   display: flex;
   max-width: 1240px;
   width: 100%;
@@ -9,11 +9,11 @@
   /* position:fixed;
   top: 0;
   z-index: 9; */
-  
+
 }
 
-.header_wrap{
-  position:fixed;
+.header_wrap {
+  position: fixed;
   top: 0;
   z-index: 9;
 
@@ -21,7 +21,7 @@
   margin: 0 auto;
 }
 
-.navbar_wrap{
+.navbar_wrap {
 
   box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.03);
   -webkit-box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.03);
@@ -29,13 +29,13 @@
 
 }
 
-.Logo_warap{
-width: 100px;
-height: 100px;
-overflow: hidden;
+.Logo_warap {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
 }
 
-.Logo_warap img{
+.Logo_warap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -44,40 +44,41 @@ overflow: hidden;
 
 
 
-.upper_head{
-background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
+.upper_head {
+  background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
   padding: 15px;
 }
 
-.dflex{
+.dflex {
 
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 
 }
-.dflex p{
+
+.dflex p {
 
   font-size: 20px;
   font-weight: 400;
   cursor: pointer;
-  
+
 
 }
 
 
 
-.upper_head_wrap{
+.upper_head_wrap {
   max-width: 1240px;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.icon_color{
+.icon_color {
   color: white;
   margin-top: 1px;
   font-size: 20px;
@@ -98,13 +99,13 @@ gap: 8px;
 }
 
 .deskMenuListItem {
-    font-weight: 500;
-    padding: 10px 15px;
-    color:#d004a3;
-    font-family: "Exo", sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    transition: all .25s ease;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: #d004a3;
+  font-family: "Exo", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: all .25s ease;
 
 }
 
@@ -121,14 +122,15 @@ gap: 8px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 50px;
-  background:  #bfd2f8;
-  color:  #1f2b6c;
+  background: #bfd2f8;
+  color: #1f2b6c;
   font-family: Work Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
+
 .upper_head_wrap {
   color: white;
 }
@@ -141,8 +143,8 @@ gap: 8px;
   border: none;
   padding: 6px 10px;
   border-radius: 50px;
-  background:  #1f2b6c;
-  color:  #bfd2f8;
+  background: #1f2b6c;
+  color: #bfd2f8;
   font-family: Work Sans;
   font-size: 12px;
   font-style: normal;
@@ -158,11 +160,12 @@ gap: 8px;
 
 .openvector {
   font-size: 21px;
-  color: #d004a3;;
+  color: #d004a3;
+  ;
 }
 
 .heading {
-  color:  black;
+  color: black;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -171,14 +174,14 @@ gap: 8px;
 }
 
 .navMenu {
-  color:  #1f2b6c;
+  color: #1f2b6c;
   font-size: 20px;
   font-weight: 400;
- 
+
   position: fixed;
   align-items: center;
-top: 58px;
-right: 35px;
+  top: 58px;
+  right: 35px;
 
   z-index: 9999;
   flex-direction: column;
@@ -187,31 +190,32 @@ right: 35px;
   background: #bfd2f8;
   border-radius: 0.2rem;
 
-  
+
 }
 
 .listItem {
 
   padding: 0.2rem 0.5rem;
   margin: 0.2rem;
-  
+
 }
 
 @media screen and (max-width: 1024px) {
- 
+
 
   .textBtnContainer {
     gap: 15px;
     font-size: 1.8vw;
   }
 
- 
+
 
   .appointmentbtn {
     padding: 10px 30px;
     gap: 8px;
     font-size: 12px;
   }
+
   .dflex p {
     font-size: 14px;
   }
@@ -220,14 +224,15 @@ right: 35px;
 
 
 @media screen and (max-width: 768px) {
-  .upper_head{
+  .upper_head {
     display: none;
   }
-  .Navbar{
+
+  .Navbar {
     padding: 10px;
   }
- 
-  .upper_head{
+
+  .upper_head {
     display: none;
   }
 
@@ -245,32 +250,28 @@ right: 35px;
     padding: 5px 10px;
     font-size: 9px;
   }
+
   .mobmenu {
     display: flex;
   }
+
   .heading {
     font-size: 28px;
   }
-  
+
 }
 
 @media screen and (max-width: 650px) {
- 
+
   .textBtnContainer {
     font-size: 1.7vw;
   }
+
   .heading {
     font-size: 22px;
   }
 }
 
-@media screen and (max-width: 550px) {
-  
- 
+@media screen and (max-width: 550px) {}
 
- 
-}
-
-@media screen and (max-width: 425px) {
-  
-}
+@media screen and (max-width: 425px) {}

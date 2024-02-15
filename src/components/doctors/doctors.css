@@ -1,5 +1,5 @@
-#doctors{
- margin: 180px 0;
+#doctors {
+  margin: 180px 0;
 }
 
 .docimages {
@@ -11,17 +11,17 @@
   justify-content: center;
 }
 
-.docimages span{
-    align-items: center;
+.docimages span {
+  align-items: center;
   justify-content: center;
 }
 
-.docheading{
- margin: 30px 0;
+.docheading {
+  margin: 30px 0;
 }
 
 .smalldocheading {
-  color:  #159eec;
+  color: #159eec;
   text-align: center;
 
   /* Caption */
@@ -35,7 +35,7 @@
 }
 
 .largedocheading {
-  color:  #1f2b6c;
+  color: #1f2b6c;
   text-align: center;
   margin-top: 8px;
 
@@ -56,11 +56,12 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 25.2px */
+  line-height: 140%;
+  /* 25.2px */
 }
 
 .docfield {
-  color:  #1f2b6c;
+  color: #1f2b6c;
   margin-top: 8px;
 
   /* Caption */
@@ -80,7 +81,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%;
+  /* 22.4px */
 }
 
 .firstdoctor,
@@ -88,7 +90,7 @@
 .thirddoctor {
   border-radius: 5px 5px 0px 0px;
 
-  background:  #bfd2f8;
+  background: #bfd2f8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,7 +105,7 @@
   margin: auto auto;
 
   border-radius: 0px 0px 5px 5px;
-  background:  #1f2b6c;
+  background: #1f2b6c;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,7 +113,7 @@
 }
 
 .viewprofilecontainer a {
-  color:  #bfd2f8;
+  color: #bfd2f8;
 }
 
 .fb {

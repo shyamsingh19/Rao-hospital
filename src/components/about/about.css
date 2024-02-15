@@ -1,10 +1,10 @@
 #about {
-background-color:pink;
- margin-top: 180px ;
-padding: 20px;
+    background-color: pink;
+    margin-top: 180px;
+    padding: 20px;
 }
 
-.aboutuswrap{
+.aboutuswrap {
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
@@ -12,51 +12,52 @@ padding: 20px;
     gap: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
 }
-  
- .aboutuswrap h2{
+
+.aboutuswrap h2 {
     margin-bottom: 0.5rem;
     line-height: 1.2;
     font-weight: 700;
     font-size: 44px;
     color: #223a66;
-    
+
 }
 
-.aboutuswrap  p{
+.aboutuswrap p {
     color: #1f2b6c;
     justify-content: flex-start;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.63043em;
     padding-left: 40px;
-  
+
 }
-.aboutuswrap h5{
+
+.aboutuswrap h5 {
     margin-bottom: 0.5rem;
     line-height: 1.2;
     font-weight: 400;
     font-size: 22px;
     color: #223a66;
     margin-bottom: 40px;
- 
+
 }
 
-ul{
+ul {
     margin: 20px 0;
 }
 
-ul li{
+ul li {
 
     margin: 10px 0;
 }
 
 
 
-.aboutsecondimage{
+.aboutsecondimage {
     border-radius: 5px;
-       height: 400px;
+    height: 400px;
     margin: 40px auto;
     max-width: 700px;
     overflow: hidden;
@@ -64,40 +65,41 @@ ul li{
 
 }
 
-.aboutsecondimage img{
+.aboutsecondimage img {
     height: 100%;
     object-fit: cover;
     width: 62%;
 }
 
 @media screen and (max-width: 1110px) {
-.aboutcontent{
- max-width: 100% !important;
-  
-}
-.aboutuswrap{
-    justify-content: center;
-}
+    .aboutcontent {
+        max-width: 100% !important;
+
+    }
+
+    .aboutuswrap {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    .aboutuswrap div{
+    .aboutuswrap div {
         width: 100%;
     }
-     .aboutuswrap h2{
+
+    .aboutuswrap h2 {
         font-size: 22px;
     }
-    .aboutuswrap h5{
-   font-size: 17px;
+
+    .aboutuswrap h5 {
+        font-size: 17px;
     }
-     .aboutuswrap p{
+
+    .aboutuswrap p {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 425px) {
- 
-}
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {}
 
-}
+@media screen and (max-width: 375px) {}
