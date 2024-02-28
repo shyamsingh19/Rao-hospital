@@ -22,66 +22,66 @@ const Doctors = () => {
 
       <div className="docimages">
         <span className="firstdoctor">
-          <img src={doctor1} alt="" className="firstdoc" />
+          <img src={doctor1} alt="www" className="firstdoc" />
           <h5 className="docname">Doctor’s Name</h5>
           <h4 className="docfield">Neurology</h4>
           <span className="socialmedia">
-            <a href="">
-              <img src={insta} alt="" className="insta" />
+            <a href="www">
+              <img src={insta} alt="www" className="insta" />
             </a>
-            <a href="">
-              <img src={fb} alt="" className="fb" />
+            <a href="www">
+              <img src={fb} alt="www" className="fb" />
             </a>
-            <a href="">
-              <img src={linkedin} alt="" className="linkedin" />
+            <a href="www">
+              <img src={linkedin} alt="www" className="linkedin" />
             </a>
           </span>
           <span className="viewprofilecontainer">
-            <a href="">
+            <a href="www">
               <h4 className="viewprofile">View Profile</h4>
             </a>
           </span>
         </span>
 
         <span className="seconddoctor">
-          <img src={doctor2} alt="" className="firstdoc" />
+          <img src={doctor2} alt="www" className="firstdoc" />
           <h5 className="docname">Doctor’s Name</h5>
           <h4 className="docfield">Neurology</h4>
           <span className="socialmedia">
-            <a href="">
-              <img src={insta} alt="" className="insta" />
+            <a href="www">
+              <img src={insta} alt="www" className="insta" />
             </a>
-            <a href="">
-              <img src={fb} alt="" className="fb" />
+            <a href="www">
+              <img src={fb} alt="www" className="fb" />
             </a>
-            <a href="">
-              <img src={linkedin} alt="" className="linkedin" />
+            <a href="www">
+              <img src={linkedin} alt="www" className="linkedin" />
             </a>
           </span>
           <span className="viewprofilecontainer">
-            <a href="">
+            <a href="www">
               <h4 className="viewprofile">View Profile</h4>
             </a>
           </span>
         </span>
 
         <span className="thirddoctor">
-          <img src={doctor3} alt="" className="firstdoc" />
+          <img src={doctor3} alt="www" className="firstdoc" />
           <h5 className="docname">Doctor’s Name</h5>
           <h4 className="docfield">Neurology</h4>
           <span className="socialmedia">
-            <a href="">
-              <img src={insta} alt="" className="insta" />
+            <a href="www">
+              <img src={insta} alt="www" className="insta" />
             </a>
-            <a href="">
-              <img src={fb} alt="" className="fb" />
+            <a href="www">
+              <img src={fb} alt="www" className="fb" />
             </a>
-            <a href="">
-              <img src={linkedin} alt="" className="linkedin" />
+            <a href="www">
+              <img src={linkedin} alt="www" className="linkedin" />
             </a>
           </span>
           <span className="viewprofilecontainer">
-            <a href="">
+            <a href="www">
               <h4 className="viewprofile">View Profile</h4>
             </a>
           </span>

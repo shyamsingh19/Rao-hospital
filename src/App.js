@@ -11,7 +11,7 @@ import { BrowserRouter,  Route, Routes } from "react-router-dom";
 import Internalmedicine from "./components/pages/Internalmedicine/internalmedicine"
 import Paeditrics from "./components/pages/paeditrics/paeditrics"
 
-import Diabetology from "./components/pages/diabetology/diabetology";
+import Diabetology from "./components/pages/Diabetology/diabetology";
 
 import Gyne from "./components/pages/gynae/gyne";
 import Laboratry from "./components/pages/laboratory/laboratory";
