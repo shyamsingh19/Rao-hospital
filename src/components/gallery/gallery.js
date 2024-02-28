@@ -44,21 +44,21 @@ const Gallery = () => {
 
                         
 
-                        <img src={bed1} />
-                        <img src={lab} />
-                        <img src={treatment3} />
-                        <img src={bed3} />
+                        <img src={bed1} alt=''/>
+                        <img src={lab} alt=''/>
+                        <img src={treatment3}alt='' />
+                        <img src={bed3} alt=''/>
 
                     </div>
 
                     <div className="column">
 
-                        <img src={beds} />
-                        <img src={ Kishan } />
-                        <img src={lab3} />
-                        <img src={lab} />
-                        <img src={treatment2} />
-                        <img src={bed6} />
+                        <img src={beds} alt=''/>
+                        <img src={ Kishan } alt='' />
+                        <img src={lab3} alt=''/>
+                        <img src={lab}alt='' />
+                        <img src={treatment2}alt='' />
+                        <img src={bed6} alt=''/>
 
                     </div>
 
@@ -67,19 +67,19 @@ const Gallery = () => {
 
                         <img src={treatment} />
 
-                        <img src={bed4} />
-                        <img src={bed5} />
-                        <img src={lab2} />
-                        <img src={bed7} />
+                        <img src={bed4} alt=''/>
+                        <img src={bed5} alt=''/>
+                        <img src={lab2} alt=''/>
+                        <img src={bed7} alt=''/>
 
 
                     </div>
                     <div className="column">
 
-                        <img src={maindoctor} />
+                        <img src={maindoctor} alt=''/>
 
-                        <img src={doctor} />
-                        <img src={banner} />
+                        <img src={doctor} alt=''/>
+                        <img src={banner} alt=''/>
 < img src={druma} />
 
 
