@@ -50,7 +50,7 @@ const Gallery = () => {
             </div>
 
             <div className="column">
-              <img src={treatment} alt=''/>
+              <img src={treatment} alt="" />
 
               <img src={bed4} alt="" />
               <img src={bed5} alt="" />
@@ -62,7 +62,7 @@ const Gallery = () => {
 
               <img src={doctor} alt="" />
               <img src={banner} alt="" />
-              <img src={druma} alt=''/>
+              <img src={druma} alt="" />
             </div>
           </div>
         </div>
