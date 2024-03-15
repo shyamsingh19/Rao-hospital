@@ -1,5 +1,4 @@
 .Navbar {
-
   display: flex;
   max-width: 1240px;
   width: 100%;
@@ -9,7 +8,6 @@
   /* position:fixed;
   top: 0;
   z-index: 9; */
-
 }
 
 .header_wrap {
@@ -22,11 +20,9 @@
 }
 
 .navbar_wrap {
-
   box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.03);
   -webkit-box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.03);
   background: #ffffff;
-
 }
 
 .Logo_warap {
@@ -41,33 +37,23 @@
   object-fit: cover;
 }
 
-
-
-
 .upper_head {
   background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
   padding: 15px;
 }
 
 .dflex {
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-
 }
 
 .dflex p {
-
   font-size: 20px;
   font-weight: 400;
   cursor: pointer;
-
-
 }
-
-
 
 .upper_head_wrap {
   max-width: 1240px;
@@ -105,15 +91,12 @@
   font-family: "Exo", sans-serif;
   text-transform: capitalize;
   font-size: 16px;
-  transition: all .25s ease;
-
+  transition: all 0.25s ease;
 }
 
 .deskMenuListItem:hover {
   cursor: pointer;
 }
-
-
 
 .appointmentbtn {
   border: none;
@@ -161,7 +144,6 @@
 .openvector {
   font-size: 21px;
   color: #d004a3;
-  ;
 }
 
 .heading {
@@ -189,26 +171,18 @@
   min-width: 6rem;
   background: #bfd2f8;
   border-radius: 0.2rem;
-
-
 }
 
 .listItem {
-
   padding: 0.2rem 0.5rem;
   margin: 0.2rem;
-
 }
 
 @media screen and (max-width: 1024px) {
-
-
   .textBtnContainer {
     gap: 15px;
     font-size: 1.8vw;
   }
-
-
 
   .appointmentbtn {
     padding: 10px 30px;
@@ -219,9 +193,7 @@
   .dflex p {
     font-size: 14px;
   }
-
 }
-
 
 @media screen and (max-width: 768px) {
   .upper_head {
@@ -258,11 +230,9 @@
   .heading {
     font-size: 28px;
   }
-
 }
 
 @media screen and (max-width: 650px) {
-
   .textBtnContainer {
     font-size: 1.7vw;
   }
@@ -272,6 +242,8 @@
   }
 }
 
-@media screen and (max-width: 550px) {}
+@media screen and (max-width: 550px) {
+}
 
-@media screen and (max-width: 425px) {}
+@media screen and (max-width: 425px) {
+}
